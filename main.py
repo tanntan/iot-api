@@ -4,6 +4,7 @@ import uvicorn as uvicorn
 from fastapi import FastAPI
 from app.api.config import config as Config
 
+
 app = FastAPI()
 
 
